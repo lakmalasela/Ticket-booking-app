@@ -1,0 +1,262 @@
+/* Validation Colors for Input Controls */
+.rowbcolor{
+    margin-top: 5px;
+    border-bottom: 2px solid #005cbf;
+}
+.bg-dark{
+    background-color: #207878!important;
+}
+
+ .disabled-button {
+     cursor: not-allowed; /* Set the cursor to "not allowed" for disabled buttons */
+ }
+
+#content{
+    overflow-x: hidden;
+}
+.btnSize{
+    text-align: center;
+}
+.btnDelUpsVieize{
+    margin-bottom: 4px;
+    border: solid 1px;
+}
+
+.AnimateShadow h2{
+    color: transparent;
+    background-image: linear-gradient(to left,#2ecc71,#e4e7e9,#c097d1,#f39c12);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    /*text-shadow: -5px 2px 20px #C2C8CE;*/
+    /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+    /*text-shadow: 2px 2px 4px #000000;*/
+
+    /*position: relative;*/
+    /*background:linear-gradient(0deg,#000,#262626);*/
+}
+.AnimateShadow .animatesymboll{
+    color: papayawhip !important;
+    background-image: linear-gradient(to left,#2ecc71,#e4e7e9,#c097d1,#f39c12);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+}
+
+@keyframes animate {
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    1000%{
+        background-position: 0 100%;
+    }
+}
+
+.AnimateShadow:before{
+    content: '' !important;
+    position: absolute !important;
+    left:0 !important;
+    top: 0 !important;
+    background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000) !important;
+
+}
+
+
+
+.editbtn{
+    color: black;
+    background-color: #77b9b9;
+}
+.deletebtn{
+    color: black;
+    background-color: #77b9b9;
+}
+.viewbtn{
+    color: black;
+    background-color: #77b9b9;
+}
+
+.cbody{
+    overflow: hidden;
+    transition: height 1s, width 1s, padding 1s, visibility 1s, opacity 0.5s ease-out;
+}
+.swal-modal{
+    /*background-color: #c7e9e9 !important;*/
+    /*border: 3px solid #ddc6c6;*/
+}
+.mainBlock .block_other:hover {
+    filter: brightness(0.8);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.addAllbtn{
+    background-color:   rgba(31, 226, 54, 0.66);
+}
+.addAllbtn:hover{
+    background-color: #7cfc00a8;
+
+}
+.clearAllbtn{
+    background-color: #1e90ffa3;
+}
+.updateAllbtn{
+    background-color: rgba(255, 255, 30, 0.99);
+}
+.updateAllbtn:hover{
+    background-color: #FFFF3C;
+}
+.clearAllbtn:hover{
+    background-color: #1e90ff;
+}
+
+.theadcolor{
+    /*background-color: #008B8B;*/
+    background-color: #77b9b9;
+
+
+}
+.navColor{
+    background-color: #207878;
+}
+.nav-link.active{
+    background-color: #77b9b9 !important;
+}
+
+.formcontent{
+    border: 2px solid rgb(0, 123, 255);
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(220, 220, 220, 0.26), rgba(243, 255, 255,0.68));
+}
+.cardhead{
+    background-color: #031f40;
+    /*margin-top: 10px;*/
+
+    /*background-image: linear-gradient(rgba(10,72,221,0.68),rgba(212,255,254,0.68));*/
+}
+.card{
+    border: none !important;
+}
+.cardstyle{
+
+    /*border: 2px solid #0b2e13;*/
+    /*border-radius: 20px;*/
+    /*background-image: linear-gradient(rgba(10,72,221,0.68),rgba(212,255,254,0.68));*/
+}
+.formB{
+    border: 2px solid rgb(0, 123, 255);
+    border-radius: 15px;
+    margin-bottom: 5px;
+    /*background-color:  rgb(247 251 255);*/
+    /*background-color: rgb(245 245 245);*/
+
+;
+
+}
+.mainBtn{
+    background-color: #8888;
+    color: #fff;
+    /*width: 100px;*/
+}
+
+.tblbtnprint{
+    border-radius: 10px;
+    /*border: 2px solid #a71d2a;*/
+    /*color: #ffffff;*/
+    background-image: linear-gradient(#007bff,rgba(7 ,224 ,219 ,0.68));
+}
+
+
+body::-webkit-scrollbar{
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(78, 82, 86, 0.93), rgba(201, 221, 220, 0.68));
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #b1b1c1;    /* color of the scroll thumb */
+    border-radius: 6px;       /* roundness of the scroll thumb */
+    /*border: 3px solid orange;  */
+    /* creates padding around scroll thumb */
+}
+
+
+
+.invalid .form-control{
+    background-color: pink;
+}
+.valid .form-control{
+    background-color: lightgreen;
+}
+.updated .form-control{
+    background-color: khaki;
+}
+
+
+.file-box{
+    height: 87px;
+    margin-bottom: 7px;
+    border:1px solid #ccc;
+    padding: 5px;
+    position: relative;
+}
+
+.file-box>img{
+    position: absolute;
+    height: 75px;
+    top: 5px;
+    left: 5px;
+}
+
+.file-box>ul{
+    position: absolute;
+    top: 5px;
+    left: 87px;
+    right: 5px;
+    padding: 0px;
+    list-style: none;
+    color: #555;
+    text-align: right;
+}
+
+
+/* Profile Image */
+
+.bntVisibity{
+    cursor: not-allowed;
+}
+
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.block_other img:hover{
+    filter: brightness(0.8);
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+
+.new-blog{
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #00000030;
+    cursor: pointer;
+
+}
+.img_block{
+    width:100%;
+    height: 70vh;
+}
+.modal-dialog{
+    max-width: 200vh;
+}
+
+
+
+
+
+

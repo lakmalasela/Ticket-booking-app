@@ -1,0 +1,37 @@
+.mainCardHeader {
+    font-family: 'Heebo', sans-serif;
+}
+
+.cnew {
+    width: 80px;
+    border-radius: 8px;
+
+}
+.star{
+    color: #cccccc;
+    padding-left: 3vh;
+    font-size: 30px;
+    font-weight: 500;
+}
+.ceylonHead{
+    font-family: 'Lobster', cursive;
+}
+.price{
+    font-weight: 500;
+}
+.seats{
+    text-align: center;
+}
+.bookseat{
+    width: 80% !important;
+}
+
+/*.btnSet {*/
+/*    width: 26% !important;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+.btnSub {
+    padding-bottom: 10px;
+    text-align: center;
+}
